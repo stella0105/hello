@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="reg.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="reg">
+<div id="reg2">
+<p class="text">[ 報名表單 ]</p>
+<form name="reg" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse"
+      onsubmit="">
+  <input name="entry.1339495092" type="text" id="username" required  placeholder="姓名" ><br>
+        <select name="entry.1944781450" id="school" required > 
+        	<option value="" selected>請選擇</option>
+           <option value="文學院">文學院</option>
+           <option value="理學院">理學院</option>
+            <option value="社會科學學院">社會科學學院</option>
+            <option value="法學院">法學院</option>
+            <option value="商學院">商學院</option>
+            <option value="外國語文學院">外國語文學院</option>
+            <option value="傳播學院">傳播學院</option>
+            <option value="國際事務學院">國際事務學院</option>
+            <option value="教育學院">教育學院</option>
+        </select><br>
+   <input name="entry.795504394" type="text" required id="tele" 
+          onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+          placeholder="手機" maxlength="10"><br>
+   
+   <input type="email" required id="ema" placeholder="Email" name="entry.560282373"><br>
+   
+        
+
+<input type="date" id="birthday" required name="entry.324774019" min="1980-01-01" max="2017-03-08">
+<input type="hidden" id="myNumber" name="entry.189820201" value="104301021">
+<br>
+<input type="submit" id="submit" value="註冊">
+</form>
+</div>
+</div>
+</body>
+</html>
