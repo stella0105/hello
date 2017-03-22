@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe2fe+0,e0ffdd+100 */
+background: rgb(255,226,254); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,226,254,1) 0%, rgba(224,255,221,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,226,254,1) 0%,rgba(224,255,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,226,254,1) 0%,rgba(224,255,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe2fe', endColorstr='#e0ffdd',GradientType=1 ); /* IE6-9 */	
+}
+
+#reg{
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+		  height:500px;
+}
+#reg2{
+	width:30%;
+	line-height:10%;
+	}
+.text{
+	font-size:2.5em;
+	font-weight:800;
+	}
+#username{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+	}
+input[type=text]:valid{
+	background-color:#9EE3D2;
+	}
+	select:valid{
+	background-color:#9EE3D2;
+	}
+	input[type=email]:valid{
+	background-color:#9EE3D2;
+	}
+input[type=date]:valid{
+	background-color:#9EE3D2;
+	}
+#school{
+	width: 100%;
+    padding: 12px 20px;
+	height:40px;
+	margin: 10px 0;
+    box-sizing: content-box;
+    outline: none;
+	-webkit-appearance: menulist-button;
+	}
+#tele{width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;}
+#ema{width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;}
+#birthday{width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;}
+input[type=submit]{
+	width: 100%;
+    background-color: #32906e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	}
+#submit:hover{
+	background-color:#4EB086;
+	color:white;
+	}
+	
+
+
